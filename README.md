@@ -26,7 +26,7 @@ Our team combined **beta regression**, **logistic models**, and a **neural netwo
 ## Methods
 
 | Step | Description |
-|----|----|
+|-----------------------|------------------------------------------------|
 | **Data Cleaning** | Missing value handling, categorical encoding, normalization by organ type. |
 | **Exploratory Analysis** | Summary statistics and distribution plots for donor/recipient variables. |
 | **Statistical Modeling** | Beta regression for proportional survival outcomes (R `betareg`). |
@@ -39,7 +39,7 @@ Our team combined **beta regression**, **logistic models**, and a **neural netwo
 ## Key Results
 
 | Metric | Beta Regression | Neural Network |
-|----|----|----|
+|-------------------|---------------------------|---------------------------|
 | MSE ↓ | 0.042 | 0.038 |
 | R² | 0.71 | 0.74 |
 | Top Predictors (SHAP) | Organ Type, Donor Type, Insurance, Age | — |
@@ -115,7 +115,12 @@ Data integration • Beta regression • Neural network design • Feature inter
 
 ## Team Contributors
 
-**Krisha Mansukhani (MS Biological Data Science)** – Data preprocessing, beta regression, SHAP visualization\
-**Group 12, ASU M.S. Biological Data Science** – Model architecture, reporting, dashboard integration
+**Krisha Mansukhani (MS Biological Data Science)**
+
+**Charlotte Bony (MS Biological Data Science)**
+
+**Ashley Colvin (MS Biological Data Science)**
+
+**Emma Choo (MS Biological Data Science)**
 
 ------------------------------------------------------------------------
